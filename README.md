@@ -2,11 +2,12 @@
 
 안녕하세요. 이주현입니다.
 
-[개인 블로그](https://velog.io/@mael1657)
-[개인 노션](https://mango-pull-bbe.notion.site/8b7681df66064e71b90dc52da64268e7)
+- [개인 블로그](https://velog.io/@mael1657)
+- [개인 노션](https://mango-pull-bbe.notion.site/8b7681df66064e71b90dc52da64268e7)
 
-userEmail : test@test.com
-password : !234Qwer
+- 유저 정보
+  - userEmail : test@test.com
+  - password : !234Qwer
 
 ---
 
