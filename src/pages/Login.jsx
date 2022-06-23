@@ -24,6 +24,13 @@ const Login = () => {
   const passwordRef = useRef(null);
   const buttonRef = useRef(null);
 
+  useEffect(() => {
+    navigateHomeIfLogedIn();
+    verifyEmail();
+    verifyPassword();
+    handleEnableButton();
+  }, [userEmail, userPassword, validEmail, validPassword, enableButton]);
+
   const handleUserId = () => {
     setUserEmail(EmailRef.current.value);
   };
@@ -96,19 +103,12 @@ const Login = () => {
     }
   };
 
-  useEffect(() => {
-    navigateHomeIfLogedIn();
-    verifyEmail();
-    verifyPassword();
-    handleEnableButton();
-  }, [userEmail, userPassword, validEmail, validPassword, enableButton]);
-
   return (
     <Container>
       <ContentBox>
         <Section>
           <Logo>
-            <img src={process.env.PUBLIC_URL + '/img/logo.png'} />
+            <img alt="logo" src={process.env.PUBLIC_URL + '/img/logo.png'} />
           </Logo>
         </Section>
         <Section>

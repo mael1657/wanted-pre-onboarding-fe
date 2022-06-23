@@ -14,7 +14,7 @@ const GlobalNavigationBar = () => {
       <Content>
         <Section justifyContent="start">
           <Logo>
-            <img src={process.env.PUBLIC_URL + '/img/logo.png'} />
+            <img alt="logo" src={process.env.PUBLIC_URL + '/img/logo.png'} />
           </Logo>
         </Section>
         <Section justifyContent="center">

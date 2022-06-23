@@ -93,7 +93,7 @@ const Feed = (props) => {
         </ContentTop>
         <ContentImage>
           <FeedImage>
-            <img src={image} />
+            <img alt="feed image" src={image} />
           </FeedImage>
         </ContentImage>
         <ContentBottom>
