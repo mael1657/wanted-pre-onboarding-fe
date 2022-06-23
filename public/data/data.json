@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "img": "https://source.unsplash.com/random/600x500",
+    "userName": "hello",
+    "comments": [
+      { "id": 1, "userName": "user", "comment": "안녕하세용~" },
+      { "id": 2, "userName": "hellohello", "comment": "안뇽안뇽" }
+    ]
+  },
+  {
+    "id": 2,
+    "img": "https://source.unsplash.com/random/900x500",
+    "userName": "pre_onbording",
+    "comments": []
+  },
+  {
+    "id": 3,
+    "img": "https://source.unsplash.com/random/700x1080",
+    "userName": "aswefsefasvseafe",
+    "comments": []
+  },
+  {
+    "id": 4,
+    "img": "https://source.unsplash.com/random/600x500",
+    "userName": "hello",
+    "comments": [{ "id": 1, "userName": "user", "comment": "안녕하세용~" }]
+  },
+  {
+    "id": 5,
+    "img": "https://source.unsplash.com/random/900x500",
+    "userName": "pre_onbording",
+    "comments": []
+  },
+  {
+    "id": 6,
+    "img": "https://source.unsplash.com/random/700x1080",
+    "userName": "aswefsefasvseafe",
+    "comments": []
+  }
+]

@@ -8,6 +8,11 @@ const GlobalStyles = createGlobalStyle`
    outline:none;
    border:none;
  }
+ @media only screen and (max-width: 500px) {
+  html {
+    font-size:13px;
+  }
+ }
 `;
 
 export default GlobalStyles;
